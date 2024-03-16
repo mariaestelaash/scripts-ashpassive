@@ -26,8 +26,7 @@ SECRET_KEY = 'django-insecure-5+%qw@*bd0dr#1$a2lf%f$r6=tge87jar+3=e+swnqtpz&y-&z
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
-
+STATIC_ROOT = "/var/www/home/static/"
 # Application definition
 
 INSTALLED_APPS = [
