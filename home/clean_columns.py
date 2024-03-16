@@ -5,7 +5,7 @@ import pandas as pd
 
 def clean_unnecessary_collumns(df,name):
   header = ["ID",'Penetration No.','Location','FRL','Ref', 'Is Active']
-  df.to_csv(name+'.csv',columns= header)
+  df.to_csv(name+'.csv',columns= header,index = False)
 
 def sort_by_location(archive_name):
   df = archive_name
